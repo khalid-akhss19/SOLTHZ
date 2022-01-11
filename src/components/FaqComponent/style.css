@@ -1,0 +1,54 @@
+.Collection__EntireBox {
+  background: #1e1f25;
+  padding: 10px;
+  box-shadow: 0 2px 15px hsl(0deg 0% 100% / 18%);
+}
+.centeringDivOps {
+  margin-top: 50px;
+  text-align: center;
+}
+.Frequency__Lottery {
+  font-size: 32px;
+  font-weight: 700;
+  color: rgba(251, 215, 37);
+  text-transform: uppercase;
+  padding-bottom: 0;
+}
+.Frequency__Texted {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255);
+}
+
+.accord {
+  background-color: #1e1f25;
+  margin: 0px 140px;
+}
+
+.accordion {
+  background-color: #1e1f25;
+}
+.typo {
+  color: white;
+}
+#panel1a-header {
+  background-color: #1e1f25;
+  box-shadow: 0 0 6px rgb(255 255 255 / 33%);
+}
+.heading {
+  color: #fff;
+}
+.detail {
+  background-color: #1e1f25;
+  box-shadow: 0 0 6px rgb(255 255 255 / 33%);
+}
+.downIcon {
+  color: white;
+}
+@media (max-width: 600px) {
+  .accord {
+    margin: 0px;
+  }
+  .question {
+    width: 100%;
+  }
+}

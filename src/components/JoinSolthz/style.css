@@ -1,0 +1,50 @@
+.Body__Text {
+  margin: 0;
+  font-size: 56px;
+  font-weight: 700;
+
+  color: #fff;
+  text-shadow: 3px 3px 4px #891f85;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.Body_Flexed {
+  display: block;
+  background-color: #2c0d2c;
+  height: 300px;
+  padding-top: 60px;
+}
+
+.Body__Dttext {
+  color: #fbd725;
+  margin: 10px 0 0;
+  font-size: 22px;
+  display: block;
+  text-align: center;
+  align-items: center;
+  text-align: center;
+  text-shadow: 0 0 7px #fbd725;
+}
+.navlink {
+  text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+  .Body__Text {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 72px;
+    margin: 0;
+    text-shadow: 3px 3px 4px #770909;
+  }
+  .Body_Flexed {
+    display: block;
+    background-color: #090a0b;
+    height: 300px;
+    padding-top: 60px;
+  }
+  .Body__Dttext {
+    text-shadow: 0 0 7px #0e0c06;
+  }
+}

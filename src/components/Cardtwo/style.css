@@ -1,0 +1,41 @@
+.cardSection__gridTwo {
+  display: grid;
+  text-align: center;
+  width: 100%;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background: #1e1f25;
+  box-shadow: 0 2px 15px hsl(0deg 0% 100% / 18%);
+  justify-content: center;
+  grid-gap: 40px;
+}
+.HandleBlackSection__Styless {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.HandleBlackSection__Lottery {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  color: #fbd725;
+  text-shadow: 0 0 7px #fbd725;
+  margin: 0;
+}
+
+.HandleBlackSection__Size {
+  font-weight: 500;
+  color: white;
+}
+@media only screen and (max-width: 770px) {
+  .cardSection__gridTwo {
+    display: grid;
+    text-align: center;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    background: #1e1f25;
+    box-shadow: 0 2px 15px hsl(0deg 0% 100% / 18%);
+    justify-content: center;
+    grid-gap: 20px;
+  }
+}

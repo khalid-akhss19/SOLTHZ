@@ -1,0 +1,65 @@
+.TeamComponent__Cover {
+  padding: 80px 0;
+  overflow: hidden;
+  background: linear-gradient(
+      111.31deg,
+      #50204d 7.84%,
+      rgba(141, 28, 141, 0) 94.81%
+    ),
+    #8c2487;
+}
+.TeamComponent__Header {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.TeamComponent__UperText {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: rgba(251, 215, 37);
+  padding-bottom: 0;
+}
+.TeamComponent__BottomText {
+  letter-spacing: 1px;
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255);
+  padding-top: 15px;
+}
+.TeamComponent__EndingText {
+  text-align: center;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 737px) {
+  .TeamComponent__EndingText {
+    margin-top: 0px;
+  }
+
+  .TeamComponent__Cover {
+    padding: 0px 0;
+  }
+  .TeamComponent__UperText {
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    color: rgba(251, 215, 37);
+    padding-bottom: 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .TeamComponent__Header {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .TeamComponent__UperText {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: rgba(251, 215, 37);
+    padding-bottom: 0;
+  }
+}

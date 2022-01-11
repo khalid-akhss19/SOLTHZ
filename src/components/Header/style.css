@@ -1,0 +1,123 @@
+.leftdiv {
+  display: flex;
+  align-items: center;
+}
+.rightdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* width: 800px; */
+}
+.outerContainer {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0px 6px 5px #461944;
+}
+.rightlinks {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+}
+.navlink {
+  color: white;
+  text-decoration: none;
+}
+.navlink:hover {
+  color: rgb(102, 19, 98);
+}
+
+.rightbutton {
+  display: flex;
+}
+.outerContainer {
+  background: -webkit-linear-gradient(
+      338.69deg,
+      #090a0b 7.84%,
+      rgba(31, 7, 82, 0) 94.81%
+    ),
+    #41153f;
+  background-image: -webkit-linear-gradient(
+      338.69deg,
+      rgb(9, 10, 11) 7.84%,
+      rgba(31, 7, 82, 0) 94.81%
+    ),
+    initial;
+  background-color: rgb(65, 21, 63);
+  color: white;
+  width: 100%;
+  /* opacity: 0.9; */
+  padding: 10px 0 5px;
+  height: 64px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+.lefttitle {
+  font-size: 16px;
+  font-weight: 800;
+  text-shadow: 0 0 7px orchid;
+}
+.header__small {
+  display: block;
+  line-height: 1;
+  font-weight: 300;
+  letter-spacing: 4px;
+  font-size: 12px;
+}
+.header__buttonStyling,
+.header__buttonStyling {
+  /* margin-left: 30px; */
+  width: 150px;
+  letter-spacing: 1px;
+  /* margin-top: 3px; */
+  height: 40px;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.header__buttonStyling {
+  border-radius: 20px;
+  background-color: transparent;
+  border: 1px solid orchid;
+  color: orchid;
+}
+.header__buttonStyling:hover {
+  background-color: orchid;
+  transition: all 0.35s ease-in-out;
+  color: white;
+}
+.header__buttonOne {
+  color: rgb(218, 230, 223);
+}
+@media only screen and (max-width: 737px) {
+  .rightlinks {
+    /* display: none; */
+  }
+  .outerContainer {
+    width: 100%;
+  }
+  .rightdiv {
+    display: flex;
+
+    justify-content: space-around;
+    /* width: 800px; */
+  }
+}
+@media only screen and (max-width: 357px) {
+  .rightlinks {
+    /* display: none; */
+  }
+  .outerContainer {
+    width: 100%;
+  }
+  .rightdiv {
+    display: flex;
+    justify-content: space-around;
+    /* width: 800px; */
+  }
+}

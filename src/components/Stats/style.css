@@ -1,0 +1,21 @@
+.SliderBar__StatsCss {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background: #1e1f25;
+}
+.Stats__Title {
+  font-size: 20px;
+  text-align: center;
+
+  letter-spacing: 1px;
+}
+.Stats__Lottery {
+  color: rgba(251, 215, 37);
+}
+.Stats__WhiteText {
+  /* font-weight: 500; */
+  font-size: 16px;
+  line-height: 1.2;
+  color: #fff;
+}

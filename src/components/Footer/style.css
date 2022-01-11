@@ -1,0 +1,43 @@
+.Footer__End {
+  background: #1e1f25;
+  box-shadow: 0 2px 15px hsl(0deg 0% 100% / 18%);
+}
+.Footer__Container {
+  margin-left: 120px;
+  margin-right: 120px;
+  padding: 30px;
+}
+.Footer__InnerComponents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.FooterTopText {
+  color: rgba(251, 215, 37);
+}
+.FooterBottomText {
+  font-size: 16px;
+  font-weight: 700;
+  color: orchid;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#Footer__Discord,
+#Footer__Twitter {
+  font-size: 25px;
+  display: inline-block;
+  background: orchid !important;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 5px;
+  text-align: center;
+  width: 36px;
+  height: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+@media only screen and (max-width: 737px) {
+}
